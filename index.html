@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-10</title>
+</head>
+<body>
+    <h1>Assignment-10</h1>
+
+
+
+    <script>
+
+
+        // 2222222222
+
+        document.write("<br><br>Numbers(3 :)<br>")
+
+        var num = [];
+        for(var i = 1 ; i <= 10 ; i++){
+            document.write(+i +"<br>")
+        }
+
+        // 333333
+
+        document.write("<br><br><b>Table (4 :)</b><br>")
+
+            var tableNum = prompt ( "Enter a Num to Show  Table")
+            var tableleng =  prompt ("Enter the Length of Table" )
+            for(var i = 1 ; i <= tableleng ; i++ ){
+                document.write (tableNum +" * "+ i + " = "+tableNum * i +"<br>")
+            }
+
+
+            // 4444444
+
+            document.write("<br><br><b>Element index (5 :)</b><br>")
+
+            var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+            // document.write(fruits)
+            for(var i = 0; i < fruits.length; i++){
+                document.write("Element index "+i+" is "+fruits[i]+"<br>")
+            }
+            document.write("<br>")
+
+            // 555555
+
+            // document.write("<br><br>counting (6-1 :)<br>")
+            var counting = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+            
+            document.write("<b>counting : (6-1 :)</b><br><br>"+counting)
+            
+            counting.reverse()
+            document.write("<br><br><b>Reverse :(6-2 :)</b><br><br>"+counting)
+
+
+                // Even
+                document.write("<br><br>Even Numbers (6-3 :)<br>")
+
+                var even = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16,17,18,19,20]
+                for(var i = 0; i <= even.length; i++){
+                    if(i % 2 == 0){
+                        document.write(" "+i)
+
+                    }
+                    
+                }
+                document.write("<br><br>Odd Numbers (6-4 :)<br>")
+
+
+                    // Odd
+
+                var odd = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16,17,18,19,20]
+                    for(var i = 1; i <= odd.length; i++){
+                        if(i % 2 == 1){
+                            document.write(" "+i)
+                        }
+                        
+                    }
+                    document.write("<br>")
+
+
+                    // Series:
+
+
+                    document.write("<br><br>Series Numbers (6-5 :)<br>")
+                    
+                    var series = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16,17,18,19,20]
+                        for(var i = 1; i <= series.length; i++){
+                            if(i % 2 == 0){
+                                 document.write(" "+i+"k")
+                                }
+                            }
+                    document.write("<br><br><b>Idex input : (7)</b><br><br>")
+
+                    var a = ["cake", "apple pie", "cookie", "chips", "patties"]
+                    var b =prompt("Welcome to ABC Bakery. What do you want to oder sir/mam")
+                    var match = "No"
+                    for(var i = 0; i < a.length; i++){
+                        // document.write(a[i]+",")
+                        if(b == a[i]){
+                            var match = "yes"
+                        }
+                          
+                    }
+                    if(match == "yes"){
+                        document.write(b+" is available at index "+ a.indexOf(b) +" in our bakery")
+                    }else{
+                        document.write("We are sorry . pastry is not available  in our bakery ")
+                    }
+
+
+                    //8888888 largest number
+
+                    document.write("<br><br><b>Largist Number : (8)</b><br><br>")
+
+                    var number = [20,30,40,50,100,180];
+                    var max = Math.max(...number);
+                    document.write("The Largest Number is " + max);
+
+
+
+                    document.write("<br><br><b>Smallest Number : (9)</b><br><br>")
+
+                    var number = [20,30,40,50,100,180];
+                    var min = Math.min(...number);
+                    document.write("The Smallest Number is " + min);
+
+                     
+                          
+
+
+            // 10 10 10 10 10 10  Multiples
+            
+            
+            
+            document.write("<br><br><b>Multiples Number : (10)</b><br><br>")
+
+                   for(var i = 5 ; i <=100 ;i+=5){
+                    document.write(i+ " ")
+                   }
+
+
+
+
+
+                           
+
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //     for(var i = 0; i < 5 ; i++){
+    //         for(var j = 0; j <5; j++){
+    //         document.write("* ")
+    //     }
+    //     // document.write(i)
+    //     document.write("<br> ")
+    //    }     
+
+    //     var num =[]
+    //     // var star= "center"
+    //     for(var i=0;i<10;i++){
+    //         for(var j=0; j <i ;j++){
+    //             document.write("*")
+    //         }
+    //         document.write("<br>")
+    //     }
+    //     document.write("<br>")
+    //     for(var i = 0; i <10 ; i++){
+    //         for(var j=i; j < 10 ;j++){
+    //             document.write("*")
+    //         }
+    //         document.write("<br>")
+    //     }
+    //     document.write("<br>")
+           
+            
+
+
+    //     // var num =[]
+    //     document.write("<center>")
+    //     for(var i = 0; i <10 ; i++){
+    //         for(var j=0; j < i ;j++){
+    //             document.write("*")
+    //             // document.write("8")
+    //             // document.write(i)
+    //             // document.write(j)
+    //         }
+    //         document.write("<br>")
+    //     }
+    //     document.write("</center>")
+
+    //     var a =[]
+    //     // document.write("<center>")
+    //         var num =[]
+    //     // var star= "center"
+    //     for(var i=10;i>0;i--){
+    //         for(var j=i; j <10 ;j++){
+    //             document.write("*")
+    //         }
+    //         document.write("<br>")
+    //     }
+    //     // document.write("</center>")
+
+    //     // document.write("<center>")
+    //     for(var i = 5; i >0 ; i--){
+    //         for(var j=0; j <i ;j++){
+    //             // document.write(j)
+    //             document.write(i)
+    //         }
+    //         document.write("<br>")
+    //     }
+    //     // document.write("</center>")
+
+
+
+
+
+      
+    </script>
+</body>
+</html>
